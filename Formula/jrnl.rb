@@ -2,6 +2,7 @@ class Jrnl < Formula
   desc "Journal per project for coding agents, with search by meaning"
   homepage "https://github.com/gezibash/jrnl"
   version "3.2.0"
+  license "MIT"
 
   on_macos do
     on_arm do
