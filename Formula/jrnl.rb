@@ -1,28 +1,28 @@
 class Jrnl < Formula
   desc "Journal per project for coding agents, with search by meaning"
   homepage "https://github.com/gezibash/jrnl"
-  version "3.5.1"
+  version "4.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/gezibash/jrnl/releases/download/v3.5.1/jrnl_3.5.1_darwin_arm64.tar.gz"
-      sha256 "2037592147161406664567772315e9f8ede8b2b4b3b595a9d9da19232ab83625"
+      url "https://github.com/gezibash/jrnl/releases/download/v4.0.0/jrnl_4.0.0_darwin_arm64.tar.gz"
+      sha256 "f55a44a66993de7e1b30a35beb3a2bc6a2233db3e758360c52812066c4bec684"
     end
     on_intel do
-      url "https://github.com/gezibash/jrnl/releases/download/v3.5.1/jrnl_3.5.1_darwin_amd64.tar.gz"
-      sha256 "d4238d8436a08fe2b02981e1a9c03fb496f2f292f5bd9fd05848467d94e3fd55"
+      url "https://github.com/gezibash/jrnl/releases/download/v4.0.0/jrnl_4.0.0_darwin_amd64.tar.gz"
+      sha256 "b5460aa465dbddef57c6cef26c446de73a220f5e46231206c40deaa4ff5a20e0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/gezibash/jrnl/releases/download/v3.5.1/jrnl_3.5.1_linux_arm64.tar.gz"
-      sha256 "e294da466eaa17040b73d4d0e31ceed3f5b56718a496cc26fdd8e2d0731c013a"
+      url "https://github.com/gezibash/jrnl/releases/download/v4.0.0/jrnl_4.0.0_linux_arm64.tar.gz"
+      sha256 "c88dab223ad8da4c32e08f88a0ceb15a71605275fc6001f2f9696f496cd3b5d3"
     end
     on_intel do
-      url "https://github.com/gezibash/jrnl/releases/download/v3.5.1/jrnl_3.5.1_linux_amd64.tar.gz"
-      sha256 "4b072802c71586c3217494a50d8fc6804057597a2a5cde78eaa85428e1b9668f"
+      url "https://github.com/gezibash/jrnl/releases/download/v4.0.0/jrnl_4.0.0_linux_amd64.tar.gz"
+      sha256 "b868eabb062e1a3e377f3aeccf0abb8ab39cc32b66cf0cd69e9b6e7df77d0dcb"
     end
   end
 
